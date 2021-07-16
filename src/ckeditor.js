@@ -54,7 +54,7 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
-	Table,
+	// Table,
 	TableToolbar,
 	TextTransformation
 ];
@@ -76,7 +76,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'imageUpload',
 			'blockQuote',
-			'insertTable',
+			// 'insertTable',
 			'mediaEmbed',
 			'undo',
 			'redo'
@@ -90,13 +90,13 @@ ClassicEditor.defaultConfig = {
 			'imageTextAlternative'
 		]
 	},
-	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells'
-		]
-	},
+	// table: {
+	// 	contentToolbar: [
+	// 		'tableColumn',
+	// 		'tableRow',
+	// 		'mergeTableCells'
+	// 	]
+	// },
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
